@@ -31,7 +31,7 @@ The box is checked if this technical specification has been implemented.
 - [x] Use colors that complement each other
 - [x] Use Flexbox (Optional)
 - [x] Use animations (Optinal) (@login.html, @register.html and @index.html)
-- [] Usa SASS/SCSS (Optional)
+- [ ] Usa SASS/SCSS (Optional)
 ### Javascript
 - [x] External scripts
 - [x] Use variables, if statements, loops, at least one form of collections, functions/call back, and events
