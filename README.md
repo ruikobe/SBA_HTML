@@ -2,10 +2,7 @@
 
 > A small website that have four pages: Home page, login page, register page, and a page contains a talble and Flexbox layout.
 
-
-用一两段话介绍这个项目以及它能做些什么。
-
-![](img/1.jpg)
+![](img/ScreenShot.png)
 
 ## Description
 
