@@ -30,7 +30,7 @@
                             parent.tb_remove();  
                         }  
                         if (msg == "fail") {  
-                            alert("e cannot find the username or password!");  
+                            alert("We cannot find the username or password!");  
                         }  
                     },  
                     complete: function (data) {  

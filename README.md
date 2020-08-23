@@ -12,13 +12,14 @@
 
 ### Login page
 
-> In the login page, there are two buttons. When you click the "Return Home" button, it will jump back to the home page. When the "Login" button is clicked, a pop-up will show up, which consists of a simple form (username, password, login button, remeber me, cancel, and register buuton), is embed with a CSS zoom animation. The text input box is requried to fill in the required condistions. In particular, I use regex validation to check the format of password. The password must be at least 8 characters, and must contains numbers, letters, and punctuation.
+> In the login page, there are two buttons. We add an animation here. If you click the "Return Home" button, it will jump back to the home page. When the "Login" button is clicked, a pop-up will show up, which consists of a simple form (username, password, login button, remeber me, cancel, and register buuton), is embed with a CSS zoom animation. The text input box is requried to fill in the required condistions. In particular, I use regex validation to check the format of password. The password must be at least 8 characters, and must contains numbers, letters, and punctuation. We can use the DOM validation functions: checkValidaity() or setCustomValidity() for the excepetion handling.
 
 
 ### Register page
 
-> The register page has pretty similar design as login page.
+> The register page has pretty similar design as login page. The register form consists of username, password, repeat password, remeber me, cancel, and sign up buuton). The text input box is requried to fill in the required condistions. In particular, I use regex validation to check the format of password. The password must be at least 8 characters, and must contains numbers, letters, and punctuation. 
 
+In this page, I use jQuery and Ajax to submit the username and password to the server. The server will check wheter the user exists. If so, the page will jump to home page. However, it will return "We cannot find the username or password!"
 
 ### Subpage (ml.html)
 
