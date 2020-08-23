@@ -1,12 +1,14 @@
 # SBA_HTML
 
-> A small website that have four pages: Home page, login page, register page, and a page contains a talble and Flexbox layout.
+> A small website contains four pages: Home page, login page, register page, and a page contains a talble and Flexbox layout.
 
 ![](img/ScreenShot.png)
 
 ## Description
 
-项目使用条件、如何安装部署、怎样运行使用以及使用演示
+```
+Give examples
+```
 
 ## Techinical Specifications & Check List
 
@@ -35,12 +37,6 @@ The box is checked if this technical specification has been implemented.
 - [x] Use AJAX (Optional) 
 - [x] Use JSON or XML (Optional)
 - [x] Use JQuery (Optional)
-
-你需要安装什么软件以及如何去安装它们。
-
-```
-Give examples
-```
 
 
 ## Author and GitHub Link
