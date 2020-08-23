@@ -1,6 +1,6 @@
 # SBA_HTML
 
-> A small website contains four pages: Home page, login page, register page, and a page contains a talble and Flexbox layout.
+> A small website contains four pages: Home page, login page, register page, and a subpage.
 
 ![](img/ScreenShot.png)
 
