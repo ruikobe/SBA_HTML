@@ -3,7 +3,7 @@
 ![](img/ScreenShot.png)
 
 ## Description
-> A small website contains four pages: Home page, login page, register page, and a subpage.
+> SPARS is a small website for the introduction of mahine learning-based predition technologies that are applied in stock markets, contains four pages: Home page, login page, register page, and a subpage.
 
 ### Home page
 ```
@@ -25,7 +25,7 @@ Give examples
 Give examples
 ```
 
-## Techinical Specifications & Check List
+## Techinical Specifications & Checklist
 
 The box is checked if this technical specification has been implemented.
 

@@ -12,7 +12,7 @@ h2{
 a{
     text-decoration:none ;
 }
-/*Banner*/
+/* Banner */
 #ad{
     width:1060px;
     height:600px;
@@ -35,7 +35,7 @@ a{
     color:#FFF;
 }
 
-/*Float Number*/
+/* Float Number */
 #ad_num li{
     border:#FFF solid 1px;
     float:left;
@@ -47,7 +47,7 @@ a{
     color:#F00;
 }
 
-/*Dropdowm Menu*/
+/* Dropdowm Menu */
 .dropbtn {
     background-color: darkslategrey;
     color: white;
@@ -88,7 +88,7 @@ a{
   
   .show {display: block;}
 
-  /*Table*/
+  /* Table */
   table, th, td {
     border: 1px solid black;
     padding: 5px;
@@ -98,7 +98,7 @@ a{
     border-spacing: 15px;
   }
 
-  /*FlexBox*/
+  /* FlexBox */
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
