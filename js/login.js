@@ -9,7 +9,7 @@
     } 
 
     $().ready(function () {  
-        $('#Login').click(function () {  
+        $('#login').click(function () {  
             if ($('#username').val() == "" || $('#password').val() == "") {  
                 alert("Username and password cannot be blank！");  
             }  
