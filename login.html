@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPARS - Login</title>
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+
+</head>
+
+<body>
+    <!--Display element-->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    <button onclick="window.location.href='index.html'" style="width:auto;">Back to Home</button>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" id="form1" action="">
+            <div class="imgcontainer">
+                <!--Hidden element-->
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input id="username" type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input id="password" type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+
+                <button id="login" type="submit">Login</button>
+                <input type="checkbox" checked="checked"> Remember Me
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onClick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">New User? <a href="register.html">Register</a></span>
+            </div>
+
+        </form>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <div class="copyright">
+            Copyright © Rui Zhu. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>
