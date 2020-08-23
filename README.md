@@ -1,11 +1,9 @@
 # SBA_HTML
 
-> A small website contains four pages: Home page, login page, register page, and a subpage.
-
 ![](img/ScreenShot.png)
 
 ## Description
-
+> A small website contains four pages: Home page, login page, register page, and a subpage.
 
 ### Home page
 ```
