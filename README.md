@@ -5,7 +5,7 @@
 
 用一两段话介绍这个项目以及它能做些什么。
 
-![](https://github.com/dbader/readme-template/raw/master/header.png)
+![](img/1.jpg)
 
 ## Description
 
@@ -16,9 +16,9 @@
 The box is checked if this technical specification has been implemented.
 
 ### HTML
-- [x] Have 4 pages
+- [x] Have 4 pages (index.html, ml.html, login.html, and register.html)
 - [x] Use at least 10 different HTML tags
-- [x] Use HTML tables
+- [x] Use HTML tables (@ml.html)
 - [x] Implement at least two uses for forms
 - [x] Dropped Down Menu (@index.html)
 - [x] Use web fonts
@@ -29,7 +29,7 @@ The box is checked if this technical specification has been implemented.
 - [x] Use more than five different CSS selectors
 - [x] Don’t use too many fonts
 - [x] Use colors that complement each other
-- [x] Use Flexbox (Optional)
+- [x] Use Flexbox (Optional) (@ml.html)
 - [x] Use animations (Optinal) (@login.html, @register.html and @index.html)
 - [ ] Usa SASS/SCSS (Optional)
 ### Javascript
