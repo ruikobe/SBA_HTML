@@ -11,16 +11,33 @@
 
 项目使用条件、如何安装部署、怎样运行使用以及使用演示
 
-## Techinical Specifications
+## Techinical Specifications & Check List
+
+The box is checked if this technical specification has been implemented.
 
 ### HTML
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] Have 4 pages
+- [x] Use at least 10 different HTML tags
+- [x] Use HTML tables
+- [x] Implement at least two uses for forms
+- [x] Dropped Down Menu (@index.html)
+- [x] Use web fonts
+- [x] Use different types of content in the form of text and images
+- [x] Use regex validation (@login.html and @register.html to check the format of password)
 ### CSS
-
+- [x] Inline, internal, and external styling
+- [x] Use more than five different CSS selectors
+- [x] Don’t use too many fonts
+- [x] Use colors that complement each other
+- [x] Use Flexbox (Optional)
+- [x] Use animations (Optinal) (@login.html, @register.html and @index.html)
+- [] Usa SASS/SCSS (Optional)
 ### Javascript
+- [x] External scripts
+- [x] Use variables, if statements, loops, at least one form of collections, functions/call back, and events
+- [x] Use AJAX (Optional) 
+- [x] Use JSON or XML (Optional)
+- [x] Use JQuery (Optional)
 
 你需要安装什么软件以及如何去安装它们。
 
