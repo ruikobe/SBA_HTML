@@ -2,9 +2,14 @@
 
 > A small website contains four pages: Home page, login page, register page, and a subpage.
 
+## Author and GitHub Link
+
+* **Rui Zhu** - *Initial work* - [Github](https://github.com/ruikobe/SBA_HTML#sba_html)
+
 ![](img/ScreenShot.png)
 
 ## Description
+
 
 ### Home page
 ```
@@ -46,6 +51,4 @@ The box is checked if this technical specification has been implemented.
 - [x] Use JQuery (Optional)
 
 
-## Author and GitHub Link
 
-* **Rui Zhu** - *Initial work* - [Github](https://github.com/ruikobe/SBA_HTML#sba_html)
