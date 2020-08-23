@@ -1,9 +1,9 @@
-    // 获取模型
+    // define model
     var modal = document.getElementById('id01');
-    // 鼠标点击模型外区域关闭登录框
+    // Close login box when click the blank page
     window.onclick = function (event) {
         if (event.target == modal) {
-            // 此元素不会被显示
+            // hide this element
             modal.style.display = "none";
         }
     } 
@@ -19,14 +19,14 @@
                     url: "Ajax/LoginHandler.ashx",  
                     data: "username=" + escape($('#username').val()) + "&password=" + escape($('#password').val()),  
                     beforeSend: function () {  
-                        $("#loading").css("display", "block"); //点击登录后显示loading，隐藏输入框  
+                        $("#loading").css("display", "block"); //Display loading and hide input box  
                         $("#login").css("display", "none");  
                     },  
                     success: function (msg) {  
-                        $("#loading").hide(); //隐藏loading  
+                        $("#loading").hide(); //hide loading  
                         if (msg == "success") {  
                             //parent.tb_remove();  
-                            parent.document.location.href = "index.htm"; //如果登录成功则跳到管理界面  
+                            parent.document.location.href = "index.html"; //Jump to index.html if login successfully
                             parent.tb_remove();  
                         }  
                         if (msg == "fail") {  
@@ -34,7 +34,7 @@
                         }  
                     },  
                     complete: function (data) {  
-                        $("#loading").css("display", "none"); //点击登录后显示loading，隐藏输入框  
+                        $("#loading").css("display", "none"); //Display loading and hide input box  
                         $("#login").css("display", "block");  
                     },  
                     error: function (XMLHttpRequest, textStatus, thrownError) {  
@@ -44,10 +44,11 @@
         });  
     });  
 
+    //Connect to the databse to check if the "admin" user exists
     if (username == "admin" && password == "1")  
     {  
         context.Response.Write("success");  
-        //存储session  
+        //store session  
     }  
     else  
     {  
