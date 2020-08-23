@@ -3,7 +3,7 @@
 ![](img/ScreenShot.png)
 
 ## Description
-> SPARS is a small website for the introduction of mahine learning-based predition technologies that are applied in stock markets, contains four pages: Home page, login page, register page, and a subpage.
+> SPARS is a simple website for the introduction of mahine learning-based predition technologies that are applied in stock markets, contains four pages: Home page, login page, register page, and a subpage.
 
 ### Home page
 ```
