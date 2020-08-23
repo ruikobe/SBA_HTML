@@ -13,10 +13,19 @@ Give examples
 ```
 
 ### Login page
+```
+Give examples
+```
 
-### Register age
+### Register page
+```
+Give examples
+```
 
 ### Subpage (ml.html)
+```
+Give examples
+```
 
 ## Techinical Specifications & Check List
 
