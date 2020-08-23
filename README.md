@@ -21,9 +21,9 @@ Give examples
 ```
 
 ### Subpage (ml.html)
-```
-The subpage "Machine Learning" is created to demo the multi-page and navigation bar function. In the subpage, I keep the overall layout, header, navigation bar, and footer as the home page. I use a table and Flexbox layout to list sveral categories of mechine learning technologies and specific algorithms. Each algorithm has its own hyperlink to wikipeadia.
-```
+
+> The subpage "Machine Learning" is created to demo the multi-page and navigation bar function. In the subpage, I keep the overall layout, header, navigation bar, and footer as the home page. I use a table and Flexbox layout to list sveral categories of mechine learning technologies and specific algorithms. Each algorithm has its own hyperlink to wikipeadia.
+
 
 ## Techinical Specifications & Checklist
 
