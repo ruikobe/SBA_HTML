@@ -7,17 +7,17 @@
 
 ### Home page
 ```
-In the home page, 
+In the home page, we have a search bar, a navigation bar with dropdown menu (just one for demo), a section for rolling picutres (the pictures are obtained from [Pexels](https://www.pexels.com/search/template/)), and login/register buttons.
 ```
 
 ### Login page
 ```
-Give examples
+In the login page, there are two buttons. When you click the "Return Home" button, it will jump back to the home page. When the "Login" button is clicked, a pop-up will show up, which consists of a simple form (username, password, login button, remeber me, cancel, and register buuton), is embed with a CSS zoom animation. The text input box is requried to fill in the required condistions. In particular, I use regex validation to check the format of password. The password must be at least 8 characters, and must contains numbers, letters, and punctuation.
 ```
 
 ### Register page
 ```
-Give examples
+The register page has pretty similar design as login page.
 ```
 
 ### Subpage (ml.html)
